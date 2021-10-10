@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<head>
+    <title>UNIbook</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="barra">
+        <div class="centro nav-c">
+            <a href="#">home</a>
+            <a href="#">appunti</a>
+            <a href="#">rivendi</a>
+            <a href="#">libreria</a>
+        </div>
+        <div class="nav-l center-v">
+            <h1>UNIbook</h1>
+        </div>
+        <div class="nav-r center-v">
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="carrello"><span class="material-icons">shopping_cart</span></a>
+            <a href="#" data-toggle="tooltip" data-placement="bottom" title="login"><span class="material-icons">login</span></a>
+        </div>
+    </div>
+    <div class="homebg">
+        
+    </div>
+    <div class="centro home">
+        <h2>Studiare <span>costa</span> fatica? <span>Risparmia</span> sui libri!</h2>
+        <div class="bacheca">
+            <div class="col-s center-v">
+                <img src="img/notes.png" class="centro">
+                <h3>Appunti</h3>
+                <a href="#" class="center-o"><span>ricerca appunti</span></a>
+            </div>
+            <div class="col-b center-v">
+                <h3>Libreria</h3>
+               
+                <div class="centro" style="width: 100%; top:45%;">
+                    <div class="barraRicerca">
+                        
+                        <input type="txt" placeholder="ricerca libro..." data-toggle="tooltip" data-placement="bottom" title="titolo, isbn, autore, corso...">
+                        <a href="#" class="button" ><span class="material-icons" data-toggle="tooltip" data-placement="top" title="ricerca">search</span></a>
+                    </div>
+                </div>
+
+                <div class="foot discount center-o">
+                    
+                    <p><img src="img/discount.png"><span>su tutti i libri usati</span></p>
+                    
+                    
+                </div>
+            </div>
+                
+            <div class="col-s center-v">
+                <h3>Vendi</h3>
+                <a href="#" class="center-o"><span>scopri come</span></a>
+                <p class="centro">guadagna dai libri e dagli appunti che non utilizzi più</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
